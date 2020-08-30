@@ -1,0 +1,16 @@
+{
+  "ROOT": {
+    "DATA_INFO": "",
+    "FOLLOW_ME": "Github : ",
+    "LATEST_DATA_DATE": "Latest data on date"
+  },
+  "HOME": {
+    "SELECT": "View data by Country",
+    "EXPORT_COUNTRY": "Export data by Country",
+    "EXPORT_WORLD": "Export data by World",
+    "CONFIRMED": "Comfirmed",
+    "DEATHS": "Deaths",
+    "RECOVERED": "Recovered",
+    "DATE": "Date"
+  }
+}

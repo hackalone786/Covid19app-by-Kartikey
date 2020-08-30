@@ -1,0 +1,38 @@
+<mat-toolbar class="header">
+  <span class="brand">
+    <img src="assets/images/large-icon.png"> Covid19 Chart by Kartikey
+  </span>
+  <!-- This fills the remaining space of the current row -->
+  <span class="fill-remaining-space"></span>
+
+  <div class="summary-wrap">
+    <mat-icon class="text-orange" title="Confirmed">sentiment_dissatisfied</mat-icon> <span class="number">{{ totalConfirmed$ | async }}</span>
+    <mat-icon class="text-red" title="Deaths">sentiment_very_dissatisfied</mat-icon> <span class="number">{{ totalDeaths$ | async }}</span>
+    <mat-icon class="text-green" title="Recovered">sentiment_very_satisfied</mat-icon> <span class="number">{{ totalRecovered$ | async }}</span>
+  </div>
+</mat-toolbar>
+
+<mat-toolbar class="info">
+  <span>{{ 'ROOT.LATEST_DATA_DATE' | translate }}: {{ lastUpdateDate$ | async }}</span>
+  <span class="fill-remaining-space"></span>
+  <div class="lang-wrap">
+    <mat-form-field>
+      <!-- <mat-label>Languages</mat-label> -->
+      <mat-select (selectionChange)="onChangeLang($event)" [formControl]="langControl">
+        <mat-option *ngFor="let lang of languages" [value]="lang.id">
+          {{lang.text}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</mat-toolbar>
+
+<mat-card>
+  <router-outlet></router-outlet>
+</mat-card>
+
+<mat-toolbar class="info">
+  <span>{{ 'ROOT.DATA_INFO' | translate }} <a href=""></a></span>
+  <span class="fill-remaining-space"></span>
+  <span>{{ 'ROOT.FOLLOW_ME' | translate }} <a href="https://github.com/hackalone786/">@hacklone786</a></span>
+</mat-toolbar>

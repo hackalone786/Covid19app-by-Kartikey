@@ -1,0 +1,16 @@
+{
+  "ROOT": {
+    "DATA_INFO": "Testing project for java angular",
+    "FOLLOW_ME": "Follow me",
+    "LATEST_DATA_DATE": "Latest data on date"
+  },
+  "HOME": {
+    "SELECT": "View data by Country",
+    "EXPORT_COUNTRY": "Export data by Country",
+    "EXPORT_WORLD": "Export data by World",
+    "CONFIRMED": "Comfirmed",
+    "DEATHS": "Deaths",
+    "RECOVERED": "Recovered",
+    "DATE": "Date"
+  }
+}

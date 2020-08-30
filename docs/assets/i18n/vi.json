@@ -1,0 +1,16 @@
+{
+  "ROOT": {
+    "DATA_INFO": "Dữ liệu nguồn từ",
+    "FOLLOW_ME": "Theo dõi tôi",
+    "LATEST_DATA_DATE": "Dữ liệu mới nhất vào ngày"
+  },
+  "HOME": {
+    "SELECT": "Xem dữ liệu theo Nước",
+    "EXPORT_COUNTRY": "Xuất số liệu theo Nước",
+    "EXPORT_WORLD": "Xuất số liệu theo Thế Giới",
+    "CONFIRMED": "Bị nhiễm",
+    "DEATHS": "Chết",
+    "RECOVERED": "Hồi phục",
+    "DATE": "Ngày"
+  }
+}
